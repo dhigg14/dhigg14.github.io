@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang ="en">
+	<head>
+        <meta charset="UTF-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href = 'styles/default.css' rel='stylesheet' type="text/css">
+		<title>Danny Higgins ITIS3135 &#128021;</title> 
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+		<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+	</head>
+<body>
+	<div data-include="components/header.html"></div>
+    <main>
+        <h2>Activity #2: Tables</h2>
+        <h3>My Tabular Data</h3>
+        <ol class="center">
+            <li>Danny Higgins, dhiggi14@uncc.edu, 3</li>
+            <li>Luke Kent, lkent22@gmail.com, 2</li>
+            <li>Stacey Cosgrove, staceycos@gmail.com, 7</li>
+            <li>Richie McCormick, richmc@yahoo.com, 10</li>
+        </ol>
+        <h3 class="center">Data in Simple Table:</h3>
+        <table class="center">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Years of Service</th>
+            </tr>
+            <tr>
+                <td>Danny Higgins</td>
+                <td>dhiggi14@uncc.edu</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Luke Kent</td>
+                <td>lkent22@gmail.com</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Stacey Cosgrove</td>
+                <td>staceycos@gmail.com</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Richie McCormick</td>
+                <td>richmc@yahoo.com</td>
+                <td>10</td>
+            </tr>
+        </table>
+        <h3 class="center">Data in Complex Table:</h3>
+        <figure>
+            <table class="center">
+                <tr>
+                    <th>Department</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Years of Service</th>
+                    <th>Monthly Salary</th>
+                </tr>
+                <tr>
+                    <td rowspan = "2"> Supplier</td>
+                    <td>Luke Kent</td>
+                    <td>lkent22@gmail.com</td>
+                    <td>2</td>
+                    <td>$12,000</td>
+                </tr>
+                <tr>
+                    <td>Danny Higgins</td>
+                    <td>dhiggi14@uncc.edu</td>
+                    <td>3</td>
+                    <td>$12,000</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Finaces</td>
+                    <td>Richie McCormick</td>
+                    <td>richmc@yahoo.com</td>
+                    <td>10</td>
+                    <td>$10,000</td>
+                </tr>
+                <tr>
+                    <td>Stacey Cosgrove</td>
+                    <td>staceycos@gmail.com</td>
+                    <td>7</td>
+                    <td>$11,000</td>
+                </tr>
+                <tr>
+                    <td colspan ="4">Total Salary spent:</td>
+                    <td>$45,000</td>
+                </tr>
+            </table>
+        </figure>
+
+    </main>
+    <div data-include="components/footer.html"></div>
+	<script src = "scripts/HTMLInclusion.js"></script>
+</body>
+</html>
